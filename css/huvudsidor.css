@@ -16,7 +16,8 @@
       justify-content: center;}
     .menu { grid-area: 2 / 1 / 3 / 4; }
     .text { grid-area: 3 / 1 / 6 / 4; 
-    background-color: rgba(255, 255, 255, 0.5);}
+    background-color: rgba(255, 255, 255, 0.5);
+  max-height: 550px;}
     .bottom { grid-area: 6 / 1 / 7 / 6;
       border:3px solid #818181;
       font-size: 15px;
@@ -255,4 +256,8 @@ z-index: 1;
 
 td, th {
   text-align: center;
+}
+
+#skipptext {
+  font-size: 10px;
 }

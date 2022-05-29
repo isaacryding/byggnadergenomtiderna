@@ -19,7 +19,7 @@
         background-color: rgba(255, 255, 255, 0.5);
     display:flex;
     justify-content: space-around;
-    }
+    max-height: 550px;}
 
     .text > div{
         border:solid 3px rgba(196 196 196);
@@ -122,4 +122,8 @@
 
   td, th {
     text-align: center;
+  }
+
+  #skipptext {
+    font-size: 10px;
   }
