@@ -119,3 +119,7 @@
   .form > label {
       margin-top:100px;
   }
+
+  td, th {
+    text-align: center;
+  }
